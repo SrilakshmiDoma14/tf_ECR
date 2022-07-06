@@ -1,0 +1,15 @@
+[
+    {
+      "name": "tf_FoodTruck_cont",
+      "image": "270354559873.dkr.ecr.us-west-2.amazonaws.com/ecr_registry:06b5be9b07beb012d8ce92f5a3408a68bc3151b7",
+      "memory": 256,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+
+]

@@ -1,0 +1,9 @@
+ecr_name = "ecr_registry"
+mutability = "IMMUTABLE"
+ecs_cluster_name = "FoodTruck"
+task_name = "FTT"
+ecs_container_name = "ft_cont"
+container_image = "270354559873.dkr.ecr.us-west-2.amazonaws.com/ecr_registry:06b5be9b07beb012d8ce92f5a3408a68bc3151b7"
+service_name = "FT_service"
+port = 80
+subnet_id = ["subnet-0326f5e8bc6ea05c3","subnet-05577c2d632f31f88"]
